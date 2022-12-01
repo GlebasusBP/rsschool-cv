@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 70px;
+  padding-bottom: 180px;
 }
 
 .header-avatar {
@@ -77,6 +78,26 @@ body {
   font-size: 28px;
   font-weight: 300;
   letter-spacing: 10px;
+}
+
+.about {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-title {
+  font-size: 28px;
+  letter-spacing: 7px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  font-size: 24px;
+  font-weight: 300;
 }
 
 
