@@ -87,13 +87,17 @@ body {
   letter-spacing: 10px;
 }
 
+.about {
+  padding-bottom: 150px;
+}
+
 .about-wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.about-title {
+.title {
   font-size: 28px;
   letter-spacing: 7px;
   border-bottom: 1px solid #ffffff;
@@ -103,6 +107,41 @@ body {
 .about-paragraph {
   font-size: 24px;
   font-weight: 300;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.skills {
+  padding-bottom: 150px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 30px;
+}
+
+.skills-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.skills-name {
+  font-size: 24px;
+  font-weight: 300;
+  text-shadow: #000000 1px 0 15px;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 
