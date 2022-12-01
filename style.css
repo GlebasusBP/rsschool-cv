@@ -7,20 +7,31 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px;
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   color: #ffffff; 
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .header {
+  padding-top: 40px;
+  padding-bottom: 180px;
+}
+
+.header-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 70px;
-  padding-bottom: 180px;
+}
+
+.header-nav {
+  width: 100%;
 }
 
 .header-avatar {
@@ -34,10 +45,6 @@ body {
   width: 500px;
   height: 500px;
   transition: 0.3s;
-}
-
-.header-nav {
-  width: 900px;
 }
 
 .header-nav-list {
@@ -80,9 +87,7 @@ body {
   letter-spacing: 10px;
 }
 
-.about {
-  width: 900px;
-  margin: 0 auto;
+.about-wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
