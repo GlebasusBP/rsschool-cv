@@ -87,11 +87,11 @@ body {
   letter-spacing: 10px;
 }
 
-.about {
+.about, .skills, .education, .experience {
   padding-bottom: 150px;
 }
 
-.about-wrapper {
+.about-wrapper, .skills-wrapper, .education-wrapper, .experience-wrapper {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -112,16 +112,6 @@ body {
 .about-paragraph {
   font-size: 24px;
   font-weight: 300;
-}
-
-.skills-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.skills {
-  padding-bottom: 150px;
 }
 
 .skills-list {
@@ -149,17 +139,7 @@ body {
   gap: 5px;
 }
 
-.education {
-  padding-bottom: 150px;
-}
-
-.education-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.education-item {
+.education-item, .experience-item {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -168,5 +148,4 @@ body {
 .education-link {
   color: #ffffff;
 }
-
 
