@@ -62,14 +62,14 @@ body {
   margin: 0;
 }
 
-.header-nav-link, .projects-link {
+.header-nav-link, .projects-link, .contacts-link {
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.header-nav-link:hover, .projects-link:hover {
+.header-nav-link:hover, .projects-link:hover, .contacts-link:hover {
   color: #bfb8fd;
   transition: 0.3s;
 }
@@ -94,11 +94,11 @@ body {
   letter-spacing: 10px;
 }
 
-.about, .skills, .education, .experience, .code, .projects {
+.about, .skills, .education, .experience, .code, .projects, .contacts {
   padding-bottom: 150px;
 }
 
-.about-wrapper, .skills-wrapper, .education-wrapper, .experience-wrapper, .code-wrapper, .projects-wrapper {
+.about-wrapper, .skills-wrapper, .education-wrapper, .experience-wrapper, .code-wrapper, .projects-wrapper, .contacts-wrapper {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -196,4 +196,21 @@ code{
   box-shadow: 15px 10px 90px #0f0c29;
 }
 
+.contacts-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.contacts-icon {
+  width: 70px;
+  height: 70px;
+}
 
