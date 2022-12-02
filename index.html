@@ -125,10 +125,10 @@
           <li class="education-item">Courses:
             <ul class="education-list">
               <li class="education-item">
-                <a href="https://rs.school/js/" class="education-link">The Rolling Scope School (HTML, CSS, JS, GIT)</a>
+                <a href="https://rs.school/js/" class="education-link" target="_ blank">The Rolling Scope School (HTML, CSS, JS, GIT)</a>
               </li>
               <li class="education-item">
-                <a href="https://www.udemy.com/share/10208o3@sNpVeJk65L-lP1zaixK2wQCQbEJO3lEaHILKpifGMWF-nYGuY8W1YiAPTDWQBe131g==/" class="education-link">Udemy (JS/React)</a>
+                <a href="https://www.udemy.com/share/10208o3@sNpVeJk65L-lP1zaixK2wQCQbEJO3lEaHILKpifGMWF-nYGuY8W1YiAPTDWQBe131g==/" class="education-link" target="_ blank">Udemy (JS/React)</a>
               </li>
               <li class="education-item">Self-education (books/articles/movies)</li>
             </ul>
@@ -153,13 +153,13 @@
       <div class="container">
         <div class="code-wrapper">
           <h2 class="title">Code Example</h2>
-          <code>
-            <pre>
+          <pre>
+            <code>
               <span class="blue">var</span> <span class="skin">maxSequence</span> = <span class="blue">function</span><span class="yellow">(</span><span class="blue-l">arr</span><span class="yellow">){</span>
               <span class="blue">let</span> <span class="blue-l">res</span> = <span class="skin">0</span>;
             
-              <span class="pink">for(</span><span class="blue">let</span> <span class="blue-l">i</span> = <span class="skin">0</span>; <span class="blue-l">i</span> < <span class="blue-l">arr</span>.<span class="blue-l">length</span>; <span class="blue-l">i</span>++<span class="pink">)}</span>
-                <span class="pink">for</span><span class="blue">(let</span> <span class="blue-l">j</span> = <span class="blue-l">i</span> + <span class="skin">1</span>; <span class="blue-l">j</span> <= <span class="blue-l">arr</span>.<span class="blue-l">length</span> + <span class="skin">1</span>; <span class="blue-l">j</span>++<span class="blue">){</span>
+              <span class="pink">for(</span><span class="blue">let</span> <span class="blue-l">i</span> = <span class="skin">0</span>; <span class="blue-l">i</span> &lt; <span class="blue-l">arr</span>.<span class="blue-l">length</span>; <span class="blue-l">i</span>++<span class="pink">)}</span>
+                <span class="pink">for</span><span class="blue">(let</span> <span class="blue-l">j</span> = <span class="blue-l">i</span> + <span class="skin">1</span>; <span class="blue-l">j</span> &lt;= <span class="blue-l">arr</span>.<span class="blue-l">length</span> + <span class="skin">1</span>; <span class="blue-l">j</span>++<span class="blue">){</span>
                   <span class="blue">let</span> <span class="blue-l">subArr</span> = <span class="blue-l">arr</span>.<span class="skin">slice</span><span class="yellow">(</span><span class="blue-l">i</span>, <span class="blue-l">j</span><span class="yellow">)</span>;
                   <span class="blue">let</span> <span class="blue-l">sum</span> = <span class="blue-l">subArr</span>.<span class="skin">reduce</span><span class="yellow">(</span><span class="pink">(</span><span class="blue-l">a</span>, <span class="blue-l">b</span><span class="pink">)</span> <span class="blue">=></span> <span class="blue-l">a</span> + <span class="blue-l">b</span><span class="yellow">)</span>;
                   <span class="pink">if</span><span class="yellow">(</span><span class="blue-l">sum</span> > <span class="blue-l">res</span><span class="yellow">){</span>
@@ -169,12 +169,40 @@
                 <span class="pink">}</span>
                 <span class="pink">return</span> <span class="blue-l">res</span>;
               <span class="yellow">}</span>
-            </pre>
-          </code>
+            </code>
+          </pre>
         </div>
       </div>
     </section>
     <!-- /.code -->
+    <section class="projects">
+      <div class="container">
+        <div class="projects-wrapper">
+          <h2 class="title">Projects</h2>
+          <ul class="projects-list">
+            <li class="projects-item">
+              <a href="https://GlebasusBP.github.io/Shelter/shelter-DOM/pages/main/main.html" class="projects-link" target="_ blank">
+                <div class="scale">
+                  <img src="src/images/shelter.png" alt="shelter" class="projects-image scale">
+                </div>
+                <h3 class="projects-title">Shelter</h3>
+                <p class="projects-description"></p>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="https://glebasusbp.github.io/Juliya-model-CV/Juliya-model/" class="projects-link" target="_ blank">
+                <div class="scale">
+                  <img src="src/images/model-cv.png" alt="model-cv" class="projects-image scale">
+                </div>
+                <h3 class="projects-title">Model-CV</h3>
+                <p class="projects-description"></p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /.projects -->
   </main>
 </body>
 </html>

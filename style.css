@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   color: #ffffff; 
@@ -46,12 +50,11 @@ body {
 }
 
 .header-avatar:hover {
-  width: 500px;
-  height: 500px;
+  transform: scale(1.5);
   transition: 0.3s;
 }
 
-.header-nav-list {
+.header-nav-list, .projects-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -59,14 +62,14 @@ body {
   margin: 0;
 }
 
-.header-nav-link {
+.header-nav-link, .projects-link {
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover, .projects-link:hover {
   color: #bfb8fd;
   transition: 0.3s;
 }
@@ -91,11 +94,11 @@ body {
   letter-spacing: 10px;
 }
 
-.about, .skills, .education, .experience, .code {
+.about, .skills, .education, .experience, .code, .projects {
   padding-bottom: 150px;
 }
 
-.about-wrapper, .skills-wrapper, .education-wrapper, .experience-wrapper, .code-wrapper {
+.about-wrapper, .skills-wrapper, .education-wrapper, .experience-wrapper, .code-wrapper, .projects-wrapper {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -172,4 +175,25 @@ code{
 .pink {
   color: rgb(156, 58, 248);
 }
+
+.projects-item {
+  width: 400px;
+}
+
+.scale {
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 15px 10px 50px #0f0c29;
+}
+
+.scale img {
+  display: block;
+  transition: 1s;
+}
+
+.scale img:hover {
+  transform: scale(1.3);
+  box-shadow: 15px 10px 90px #0f0c29;
+}
+
 
