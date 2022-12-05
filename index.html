@@ -162,8 +162,8 @@
               <span class="pink">for(</span><span class="blue">let</span> <span class="blue-l">i</span> = <span class="skin">0</span>; <span class="blue-l">i</span> &lt; <span class="blue-l">arr</span>.<span class="blue-l">length</span>; <span class="blue-l">i</span>++<span class="pink">)}</span>
                 <span class="pink">for</span><span class="blue">(let</span> <span class="blue-l">j</span> = <span class="blue-l">i</span> + <span class="skin">1</span>; <span class="blue-l">j</span> &lt;= <span class="blue-l">arr</span>.<span class="blue-l">length</span> + <span class="skin">1</span>; <span class="blue-l">j</span>++<span class="blue">){</span>
                   <span class="blue">let</span> <span class="blue-l">subArr</span> = <span class="blue-l">arr</span>.<span class="skin">slice</span><span class="yellow">(</span><span class="blue-l">i</span>, <span class="blue-l">j</span><span class="yellow">)</span>;
-                  <span class="blue">let</span> <span class="blue-l">sum</span> = <span class="blue-l">subArr</span>.<span class="skin">reduce</span><span class="yellow">(</span><span class="pink">(</span><span class="blue-l">a</span>, <span class="blue-l">b</span><span class="pink">)</span> <span class="blue">=></span> <span class="blue-l">a</span> + <span class="blue-l">b</span><span class="yellow">)</span>;
-                  <span class="pink">if</span><span class="yellow">(</span><span class="blue-l">sum</span> > <span class="blue-l">res</span><span class="yellow">){</span>
+                  <span class="blue">let</span> <span class="blue-l">sum</span> = <span class="blue-l">subArr</span>.<span class="skin">reduce</span><span class="yellow">(</span><span class="pink">(</span><span class="blue-l">a</span>, <span class="blue-l">b</span><span class="pink">)</span> <span class="blue">=&gt</span> <span class="blue-l">a</span> + <span class="blue-l">b</span><span class="yellow">)</span>;
+                  <span class="pink">if</span><span class="yellow">(</span><span class="blue-l">sum</span> &gt <span class="blue-l">res</span><span class="yellow">){</span>
                     <span class="blue-l">res</span> = <span class="blue-l">sum</span>;
                     <span class="yellow">}</span>
                   <span class="blue">}</span>
@@ -212,7 +212,7 @@
             <li class="contacts-item">
               <a href="tel:+375447347797" class="contacts-link" target="_blank">
                 <img src="src/images/icons/phone.svg" alt="phone" class="contacts-icon">
-                <p class="contacts-text">+375 (44) 734 77 97</p>
+                <p class="contacts-text">+375(44)7347797</p>
               </a>
             </li>
             <li class="contacts-item">
@@ -264,7 +264,6 @@
   </footer>
   <!-- /.footer -->
     <a href="#header" class="btn-up-link">
-      <!-- <img src="src/images/icons/up-svgrepo-com.svg" alt="up" class="btn-up-icon"> -->
       <div class="btn-up-icon">
         <span class="btn-up-text">UP</span>
       </div>
