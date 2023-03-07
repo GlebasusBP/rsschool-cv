@@ -43,7 +43,7 @@ var maxSequence = function(arr){
 ## Experience
 - RS-School 2022Q1 Stage 1/2
 - THE ROLLING SCOPES SCHOOL - JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)
-  (cercificate - https://app.rs.school/certificate/u7gof7wc)
+  [cercificate](https://app.rs.school/certificate/u7gof7wc)
 
 ## Education
 - Belarusian National Technical University, a bachelor degree in engineering/management
