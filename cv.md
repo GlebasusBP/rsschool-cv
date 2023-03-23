@@ -1,6 +1,6 @@
 # Gleb Banifatov
 
-![](https://avatars.githubusercontent.com/u/60222037?s=400&u=b630e37e222c1d3699d0b574951456732da49495&v=)
+![](https://avatars.githubusercontent.com/u/60222037?s=400&u=939305aebc0501b981b12a77fb41aa2c8fd25bf8&v=4)
 
 ## Contacts
 - **Phone:** +375 (44) 734 77 97
